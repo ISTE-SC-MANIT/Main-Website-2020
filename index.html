@@ -30,54 +30,51 @@
   <body>
     <!--Main Navigation-->
     <header>
-      <!--Navbar-->
-      <nav
-        class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar"
-      >
-        <div class="container">
-          <!-- Navbar brand -->
-          <a class="navbar-brand" href="#">Navbar</a>
 
-          <!-- Collapse button -->
+      <!--Navbar-->
+      <nav class="my-navbar navbar fixed-top navbar-expand-md navbar-dark" id="bar">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./img/svg/Logo.svg"
+        height="60px";
+              alt="logo" 
+              loading="lazy"
+            />
+      </a>
           <button
             class="navbar-toggler"
             type="button"
             data-toggle="collapse"
-            data-target="#basicExampleNav"
-            aria-controls="basicExampleNav"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-
-          <!-- Collapsible content -->
-          <div class="collapse navbar-collapse" id="basicExampleNav">
-            <!-- Links -->
-            <!-- Links -->
-            <ul class="navbar-nav mr-auto smooth-scroll">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#intro">Home</a>
+                <a class="nav-link " aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#best-features">Features</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#examples">Examples</a>
+                <a class="nav-link" href="#schedule">Events</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#gallery">Gallery</a>
+                <a class="nav-link" href="#">Team</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
+                <a class="nav-link" href="#gallery">Contact</a>
               </li>
             </ul>
-            <!-- Links -->
-            <!-- Links -->
           </div>
-          <!-- Collapsible content -->
         </div>
       </nav>
+    
       <!--/.Navbar-->
 
       <!--Mask-->
@@ -244,7 +241,7 @@
           <h2 class="mb-5 font-weight-bold text-center">Our Events</h2>
           <div>
             <div class="row mb-4">
-              <div class="col col-lg-4">
+              <div class="col-lg-6">
                 <div class="card card-cascade narrower">
                   <!-- Card image -->
                   <div class="view view-cascade overlay">
@@ -260,232 +257,233 @@
 
                   <!-- Card content -->
                   <div class="card-body card-body-cascade">
-                    <!-- Label -->
-                    <h5 class="pink-text pb-2 pt-1">
-                     IDE for your code !
-                    </h5>
                     <!-- Title -->
                     <h4 class="font-weight-bold card-title">
                     Version Beta
                     </h4>
+                       <!-- Label -->
+                       <h5 class="pink-text pb-2 pt-1">
+                        IDE for your code !
+                       </h5>
                     <!-- Text -->
                     <p class="card-text">
-                      CHIMERA-X has put ISTE Students’ Chapter MANIT on the map. It is Central India’s largest quizzing event. A month long brainstorming yet rewarding journey, spanning 16 cities and including 5000+ participants culminated to 13 finalists battling it out in the final here in MANIT.
-                    </p>
+
+                      Version Beta is a technical conclave comprising of Central India's largest hackathon, workshops, and seminars. It is dedicated to spread the spirit of application, innovation, and creativity among the next generation of developers and engineers. With participation from colleges across the nation, the 36-Hour long hackathon provides an opportunity for the students to collaborate and conceptualize a real-world problem.
+                     </p>
                     <!-- Button -->
-                    <a class="btn btn-unique">Button</a>
+                    <a class="btn btn-unique">Visit Website</a>
                   </div>
 
                   <!-- Card footer -->
                   <div class="card-footer text-muted text-center">
-                    2 days ago
+                    <i class="fas fa-calendar-alt"></i> October-2020
                   </div>
                 </div>
               </div>
-              <div class="col col-lg-4">
-                <div class="card card-cascade narrower">
-                  <!-- Card image -->
-                  <div class="view view-cascade overlay">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
-                      alt="Card image cap"
-                    />
-                    <a>
-                      <div class="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
+            
+            <div class="col-lg-6">
+              <div class="card card-cascade narrower">
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img
+                    class="card-img-top"
+                    src="./img/chimer.jpg"
+                    alt="Card image cap"
+                    height="354px"
+                  />
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
 
-                  <!-- Card content -->
-                  <div class="card-body card-body-cascade">
-                    <!-- Label -->
-                    <h5 class="pink-text pb-2 pt-1">
-                      <i class="fas fa-utensils"></i> Culinary
-                    </h5>
-                    <!-- Title -->
-                    <h4 class="font-weight-bold card-title">
-                      Cheat day inspirations
-                    </h4>
-                    <!-- Text -->
-                    <p class="card-text">
-                      Ut enim ad minima veniam, quis nostrum exercitationem
-                      ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-                      commodi.
+                <!-- Card content -->
+                <div class="card-body card-body-cascade">
+                  <!-- Title -->
+                  <h4 class="font-weight-bold card-title">
+                  CHIMERA-X
+                  </h4>
+                     <!-- Label -->
+                     <h5 class="pink-text pb-2 pt-1">
+                      Quizzing Contest
+                     </h5>
+                  <!-- Text -->
+                  <p class="card-text">
+                    CHIMERA-X has put ISTE Students’ Chapter MANIT on the map. It is Central India’s largest quizzing event. A month long brainstorming yet rewarding journey, spanning 16 cities and including 5000+ participants culminated to 13 finalists battling it out in the final here in MANIT.
+        
                     </p>
-                    <!-- Button -->
-                    <a class="btn btn-unique">Button</a>
-                  </div>
+                  <!-- Button -->
+                  <a class="btn btn-unique">Visit Website</a>
+                </div>
 
-                  <!-- Card footer -->
-                  <div class="card-footer text-muted text-center">
-                    2 days ago
-                  </div>
+                <!-- Card footer -->
+                <div class="card-footer text-muted text-center">
+                  <i class="fas fa-calendar-alt"></i> October-2020
                 </div>
               </div>
-              <div class="col col-lg-4">
-                <div class="card card-cascade narrower">
-                  <!-- Card image -->
-                  <div class="view view-cascade overlay">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
-                      alt="Card image cap"
-                    />
-                    <a>
-                      <div class="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
-
-                  <!-- Card content -->
-                  <div class="card-body card-body-cascade">
-                    <!-- Label -->
-                    <h5 class="pink-text pb-2 pt-1">
-                      <i class="fas fa-utensils"></i> Culinary
-                    </h5>
-                    <!-- Title -->
-                    <h4 class="font-weight-bold card-title">
-                      Cheat day inspirations
-                    </h4>
-                    <!-- Text -->
-                    <p class="card-text">
-                      Ut enim ad minima veniam, quis nostrum exercitationem
-                      ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-                      commodi.
-                    </p>
-                    <!-- Button -->
-                    <a class="btn btn-unique">Button</a>
-                  </div>
-
-                  <!-- Card footer -->
-                  <div class="card-footer text-muted text-center">
-                    2 days ago
-                  </div>
+            </div>>
+          </div>
+          <div class="row mb-4">
+            <div class="col-lg-6">
+              <div class="card card-cascade narrower">
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img
+                    class="card-img-top"
+                    src="./img/megatreopuz-1.jpg"
+                    alt="Card image cap"
+                    height="354px"
+                  />
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
                 </div>
-              </div>
-            </div>
 
-            <div class="row mt-4">
-              <div class="col col-lg-4">
-                <div class="card card-cascade narrower">
-                  <!-- Card image -->
-                  <div class="view view-cascade overlay">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
-                      alt="Card image cap"
-                    />
-                    <a>
-                      <div class="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
-
-                  <!-- Card content -->
-                  <div class="card-body card-body-cascade">
-                    <!-- Label -->
-                    <h5 class="pink-text pb-2 pt-1">
-                      <i class="fas fa-utensils"></i> Culinary
-                    </h5>
-                    <!-- Title -->
-                    <h4 class="font-weight-bold card-title">
-                      Cheat day inspirations
-                    </h4>
-                    <!-- Text -->
-                    <p class="card-text">
-                      Ut enim ad minima veniam, quis nostrum exercitationem
-                      ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-                      commodi.
+                <!-- Card content -->
+                <div class="card-body card-body-cascade">
+                  <!-- Title -->
+                  <h4 class="font-weight-bold card-title">
+                    Megatreopuz
+                  </h4>
+                     <!-- Label -->
+                     <h5 class="pink-text pb-2 pt-1">
+                      Online Cryptic Hunt!!!
+                     </h5>
+                  <!-- Text -->
+                  <p class="card-text">
+                    Megatreopuz is an online cryptic hunt that has witnessed participation not only from India but from other countries as well. It contains a set of tricky questions unlocked over a span of 7 days. Top three people with the keys to most questions are awarded cash prizes.
                     </p>
-                    <!-- Button -->
-                    <a class="btn btn-unique">Button</a>
-                  </div>
-
-                  <!-- Card footer -->
-                  <div class="card-footer text-muted text-center">
-                    2 days ago
-                  </div>
+                  <!-- Button -->
+                  <a class="btn btn-unique">Visit Website</a>
                 </div>
-              </div>
-              <div class="col col-lg-4">
-                <div class="card card-cascade narrower">
-                  <!-- Card image -->
-                  <div class="view view-cascade overlay">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
-                      alt="Card image cap"
-                    />
-                    <a>
-                      <div class="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
 
-                  <!-- Card content -->
-                  <div class="card-body card-body-cascade">
-                    <!-- Label -->
-                    <h5 class="pink-text pb-2 pt-1">
-                      <i class="fas fa-utensils"></i> Culinary
-                    </h5>
-                    <!-- Title -->
-                    <h4 class="font-weight-bold card-title">
-                      Cheat day inspirations
-                    </h4>
-                    <!-- Text -->
-                    <p class="card-text">
-                      Ut enim ad minima veniam, quis nostrum exercitationem
-                      ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-                      commodi.
-                    </p>
-                    <!-- Button -->
-                    <a class="btn btn-unique">Button</a>
-                  </div>
-
-                  <!-- Card footer -->
-                  <div class="card-footer text-muted text-center">
-                    2 days ago
-                  </div>
-                </div>
-              </div>
-              <div class="col col-lg-4">
-                <div class="card card-cascade narrower">
-                  <!-- Card image -->
-                  <div class="view view-cascade overlay">
-                    <img
-                      class="card-img-top"
-                      src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(147).jpg"
-                      alt="Card image cap"
-                    />
-                    <a>
-                      <div class="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
-
-                  <!-- Card content -->
-                  <div class="card-body card-body-cascade">
-                    <!-- Label -->
-                    <h5 class="pink-text pb-2 pt-1">
-                      <i class="fas fa-utensils"></i> Culinary
-                    </h5>
-                    <!-- Title -->
-                    <h4 class="font-weight-bold card-title">
-                      Cheat day inspirations
-                    </h4>
-                    <!-- Text -->
-                    <p class="card-text">
-                      Ut enim ad minima veniam, quis nostrum exercitationem
-                      ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-                      commodi.
-                    </p>
-                    <!-- Button -->
-                    <a class="btn btn-unique">Button</a>
-                  </div>
-
-                  <!-- Card footer -->
-                  <div class="card-footer text-muted text-center">
-                    2 days ago
-                  </div>
+                <!-- Card footer -->
+                <div class="card-footer text-muted text-center">
+                  <i class="fas fa-calendar-alt"></i> Februray-2020
                 </div>
               </div>
             </div>
+          
+          <div class="col-lg-6">
+            <div class="card card-cascade narrower">
+              <!-- Card image -->
+              <div class="view view-cascade overlay">
+                <img
+                  class="card-img-top"
+                  src="./img/codathon-1.jpg"
+                  alt="Card image cap"
+                  height="354px"
+                />
+                <a>
+                  <div class="mask rgba-white-slight"></div>
+                </a>
+              </div>
+
+              <!-- Card content -->
+              <div class="card-body card-body-cascade">
+                <!-- Title -->
+                <h4 class="font-weight-bold card-title">
+                CODATHON
+                </h4>
+                   <!-- Label -->
+                   <h5 class="pink-text pb-2 pt-1">
+                    Coding Contest
+                   </h5>
+                <!-- Text -->
+                <p class="card-text">
+                  Codathon is a first ever Inter NIT Coding Contest hosted by any NIT. The last edition the week long coding contest started on 12 January 2019 and concluded on 22 January, 2019. Keeping up with our vision of a dedicated competition among all NITs, Codathon garnered registration of 5000+ students.
+                  </p>
+                <!-- Button -->
+                <a class="btn btn-unique">Visit Website</a>
+              </div>
+
+              <!-- Card footer -->
+              <div class="card-footer text-muted text-center">
+                <i class="fas fa-calendar-alt"></i> January-2020
+              </div>
+            </div>
+          </div>>
+        </div>
+               <div class="row mb-4">
+              <div class="col-lg-6">
+                <div class="card card-cascade narrower">
+                  <!-- Card image -->
+                  <div class="view view-cascade overlay">
+                    <img
+                      class="card-img-top"
+                      src="./img/anubhuti-1.jpg"
+                      alt="Card image cap"
+                      height="354px"
+                    />
+                    <a>
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body card-body-cascade">
+                    <!-- Title -->
+                    <h4 class="font-weight-bold card-title">
+                    ANUBHUTI
+                    </h4>
+                       <!-- Label -->
+                       <h5 class="pink-text pb-2 pt-1">
+                        Unfloding Hidden Stories!
+                       </h5>
+                    <!-- Text -->
+                    <p class="card-text">
+                      To ignite the spark inside the students ISTE SC MANIT organizes a guest lecture series comprising of lectures from eminent and inspiring personalities. The lectures are not only technical, but cover a plethora of fields which are otherwise unexplored by students.
+                       </p>
+                    <!-- Button -->
+                    <a class="btn btn-unique">Visit Website</a>
+                  </div>
+
+                  <!-- Card footer -->
+                  <div class="card-footer text-muted text-center">
+                    <i class="fas fa-calendar-alt"></i> February-2020
+                  </div>
+                </div>
+              </div>
+            
+            <div class="col-lg-6">
+              <div class="card card-cascade narrower">
+                <!-- Card image -->
+                <div class="view view-cascade overlay">
+                  <img
+                    class="card-img-top"
+                    src="./img/version.jpg"
+                    alt="Card image cap"
+                  />
+                  <a>
+                    <div class="mask rgba-white-slight"></div>
+                  </a>
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body card-body-cascade">
+                  <!-- Title -->
+                  <h4 class="font-weight-bold card-title">
+                  A Social Initiative
+                  </h4>
+                     <!-- Label -->
+                     <h5 class="pink-text pb-2 pt-1">
+                      IDE for your code !
+                     </h5>
+                  <!-- Text -->
+                  <p class="card-text">
+                    As a part of social initiaitive, we at ISTE SC MANIT strive to work for the the betterment of the society. Last year we took up the initiaitive to conduct joyride for the less fortunate children. Joyride was organized in collaboration wit NGO HOPE working towards welfare of under-privileged children, and was sponsored by NISSAN.
+                    </p>
+                  <!-- Button -->
+                  <a class="btn btn-unique">Visit Website</a>
+                </div>
+
+                <!-- Card footer -->
+                <div class="card-footer text-muted text-center">
+                  <i class="fas fa-calendar-alt"></i> Februrary-2020
+                </div>
+              </div>
+            </div>>
+          </div>
+          </div>
           </div>
         </section>
       </div>
@@ -494,138 +492,108 @@
     <!--Main layout-->
     <hr class="my-5" />
     <!--Footer-->
-    <footer class="page-footer font-small unique-color-dark">
-
-      <!-- Social buttons -->
-      <div class="primary-color">
-          <div class="container">
-              <!--Grid row-->
-              <div class="row py-4 d-flex align-items-center">
-
-                  <!--Grid column-->
-                  <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                      <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-6 col-lg-7 text-center text-md-right">
-                      <!--Facebook-->
-                      <a class="fb-ic ml-0">
-                          <i class="fab fa-facebook white-text mr-4"> </i>
-                      </a>
-                      <!--Twitter-->
-                      <a class="tw-ic">
-                          <i class="fab fa-twitter white-text mr-4"> </i>
-                      </a>
-                      <!--Google +-->
-                      <a class="gplus-ic">
-                          <i class="fab fa-google-plus white-text mr-4"> </i>
-                      </a>
-                      <!--Linkedin-->
-                      <a class="li-ic">
-                          <i class="fab fa-linkedin white-text mr-4"> </i>
-                      </a>
-                      <!--Instagram-->
-                      <a class="ins-ic">
-                          <i class="fab fa-instagram white-text mr-lg-4"> </i>
-                      </a>
-                  </div>
-                  <!--Grid column-->
-
+    <footer id="contact">
+      <!-- Contact Section start -->
+      <section class="contact-section">
+        <div class="container text-center text-md-left">
+          <div class="row">
+            <div class="col-md-4 mx-auto text-center">
+              <img
+                src="./img/svg/Logo.svg"
+                width="200"
+                height="150"
+                class="d-inline-block align-top"
+                alt="ISTE MANIT"
+                loading="lazy"
+              />
+              <div class="social-icon">
+                <a href="https://www.facebook.com/ISTESCMANIT" target="_blank"
+                  ><i class="fa fa-facebook" id="facebook"></i
+                ></a>
+                <a href="https://www.instagram.com/istemanit" target="_blank"
+                  ><i class="fa fa-instagram" id="instagram"></i
+                ></a>
+                <a href="https://mobile.twitter.com/iste_manit" target="_blank"
+                  ><i class="fa fa-twitter" id="twitter"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/company/iste-sc-manit"
+                  target="_blank"
+                  ><i class="fa fa-linkedin" id="linkedin"></i
+                ></a>
               </div>
-              <!--Grid row-->
+            </div>
+
+            <hr class="clearfix w-100 d-md-none" />
+
+            <div class="col-md-2 mx-auto text-center">
+              <h4 class="font-weight-bold text-uppercase mt-3 mb-4">
+                <i class="fa fa-map-marker" aria-hidden="true"></i> ADDRESS
+              </h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    class="link"
+                    href="https://goo.gl/maps/nTNnuX6w5YbGKTic7"
+                    target="blank"
+                    >Maulana Azad National Institute of Technology, Bhopal</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <hr class="clearfix w-100 d-md-none" />
+
+            <div class="col-md-2 mx-auto text-center">
+              <h4 class="font-weight-bold text-uppercase mt-3 mb-4">
+                <i class="fa fa-mobile" aria-hidden="true"></i> CONTACT NUMBER
+              </h4>
+
+              <ul class="list-unstyled">
+                <li>
+                  <p>
+                    <a class="link" href="tel://7770974110"
+                      ><i class="fa fa-phone" aria-hidden="true"></i> Rajat
+                      Bhavasar<br />+91 77709 74110</a
+                    >
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a class="link" href="tel://8800890318"
+                      ><i class="fa fa-phone" aria-hidden="true"></i> Neelanjan
+                      Banerjee <br />+91 88008 90318
+                    </a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <hr class="clearfix w-100 d-md-none" />
+
+            <div class="col-md-2 mx-auto text-center">
+              <h4 class="font-weight-bold text-uppercase mt-3 mb-4">
+                <i class="fa fa-envelope" aria-hidden="true"></i> EMAIL ADDRESS
+              </h4>
+
+              <ul class="list-unstyled">
+                <li>
+                  <p>
+                    <a class="link" href="mailto:istescmanit@gmail.com"
+                      >istescmanit@gmail.com</a
+                    >
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
-      </div>
-      <!-- Social buttons -->
+        </div>
+      </section>
+      <!-- Contact Section end -->
+    </footer>
 
-      <!--Footer Links-->
-      <div class="container mt-5 mb-4 text-center text-md-left">
-          <div class="row mt-3">
 
-              <!--First column-->
-              <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
-                  <h6 class="text-uppercase font-weight-bold">
-                      <strong>Company name</strong>
-                  </h6>
-                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                  <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
-                      amet, consectetur adipisicing elit.</p>
-              </div>
-              <!--/.First column-->
 
-              <!--Second column-->
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 class="text-uppercase font-weight-bold">
-                      <strong>Products</strong>
-                  </h6>
-                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                  <p>
-                      <a href="#!">MDBootstrap</a>
-                  </p>
-                  <p>
-                      <a href="#!">MDWordPress</a>
-                  </p>
-                  <p>
-                      <a href="#!">BrandFlow</a>
-                  </p>
-                  <p>
-                      <a href="#!">Bootstrap Angular</a>
-                  </p>
-              </div>
-              <!--/.Second column-->
-
-              <!--Third column-->
-              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                  <h6 class="text-uppercase font-weight-bold">
-                      <strong>Useful links</strong>
-                  </h6>
-                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                  <p>
-                      <a href="#!">Your Account</a>
-                  </p>
-                  <p>
-                      <a href="#!">Become an Affiliate</a>
-                  </p>
-                  <p>
-                      <a href="#!">Shipping Rates</a>
-                  </p>
-                  <p>
-                      <a href="#!">Help</a>
-                  </p>
-              </div>
-              <!--/.Third column-->
-
-              <!--Fourth column-->
-              <div class="col-md-4 col-lg-3 col-xl-3">
-                  <h6 class="text-uppercase font-weight-bold">
-                      <strong>Contact</strong>
-                  </h6>
-                  <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-                  <p>
-                      <i class="fas fa-home"></i></i> New York, NY 10012, US</p>
-                  <p>
-                      <i class="fa fa-envelope mr-3"></i> info@example.com</p>
-                  <p>
-                      <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
-                  <p>
-                      <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
-              </div>
-              <!--/.Fourth column-->
-
-          </div>
-      </div>
-      <!--/.Footer Links-->
-
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2020 Copyright:
-          <a href="https://mdbootstrap.com/bootstrap-tutorial/"> ISTE SC MANIT</a>
-      </div>
-      <!-- Copyright -->
-
-  </footer>
-  <!-- Footer -->
-    <!--Footer-->
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="js/popper.min.js"></script>
@@ -635,10 +603,7 @@
     <script type="text/javascript" src="js/mdb.min.js"></script>
 
     <!-- Carousel options -->
-    <script>
-      $(".carousel").carousel({
-        interval: 200,
-      });
-    </script>
-  </body>
+
+  <script src="./js/scrolling.js"> </script>
+</body>
 </html>
