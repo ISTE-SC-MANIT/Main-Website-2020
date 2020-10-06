@@ -7,13 +7,13 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Material Design for Bootstrap</title>
+    <title>ISTE SC MANIT</title>
     <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="img/logo.png" type="image/x-icon" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <!-- Google Fonts Roboto -->
     <link
@@ -26,22 +26,23 @@
     <link rel="stylesheet" href="css/mdb.min.css" />
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
     <!--Main Navigation-->
     <header>
-
       <!--Navbar-->
-      <nav class="my-navbar navbar fixed-top navbar-expand-md navbar-dark" id="bar">
-        <div class="container-fluid ">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="bar">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
               src="./img/svg/Logo.svg"
-        height="60px";
-              alt="logo" 
+              height="60"
+              class="d-inline-block align-top"
+              alt="ISTE MANIT"
               loading="lazy"
             />
-      </a>
+          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -56,26 +57,30 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#home">Home</a>
+                <a
+                  class="nav-link pr-3 pl-3 active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link pr-3 pl-3" href="#about-section">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#schedule">Events</a>
+                <a class="nav-link pr-3 pl-3" href="#event-section">Events</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
+                <a class="nav-link pr-3 pl-3" href="./team.html">Teams</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#gallery">Contact</a>
+                <a class="nav-link pr-3 pl-3" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    
-      <!--/.Navbar-->
+      <!-- Navbar end -->
 
       <!--Mask-->
       <div id="intro" class="view">
@@ -116,7 +121,7 @@
         <hr class="my-5" />
 
         <!--Section: Gallery-->
-        <section id="gallery">
+        <section id="about-section">
           <!-- Heading -->
           <h2 class="mb-5 font-weight-bold text-center">About us</h2>
 
@@ -237,7 +242,7 @@
         </section>
         <hr class="my-5" />
 
-        <section>
+        <section id="event-section">
           <h2 class="mb-5 font-weight-bold text-center">Our Events</h2>
           <div>
             <div class="row mb-4">
@@ -258,18 +263,20 @@
                   <!-- Card content -->
                   <div class="card-body card-body-cascade">
                     <!-- Title -->
-                    <h4 class="font-weight-bold card-title">
-                    Version Beta
-                    </h4>
-                       <!-- Label -->
-                       <h5 class="pink-text pb-2 pt-1">
-                        IDE for your code !
-                       </h5>
+                    <h4 class="font-weight-bold card-title">Version Beta</h4>
+                    <!-- Label -->
+                    <h5 class="pink-text pb-2 pt-1">IDE for your code !</h5>
                     <!-- Text -->
                     <p class="card-text">
-
-                      Version Beta is a technical conclave comprising of Central India's largest hackathon, workshops, and seminars. It is dedicated to spread the spirit of application, innovation, and creativity among the next generation of developers and engineers. With participation from colleges across the nation, the 36-Hour long hackathon provides an opportunity for the students to collaborate and conceptualize a real-world problem.
-                     </p>
+                      Version Beta is a technical conclave comprising of Central
+                      India's largest hackathon, workshops, and seminars. It is
+                      dedicated to spread the spirit of application, innovation,
+                      and creativity among the next generation of developers and
+                      engineers. With participation from colleges across the
+                      nation, the 36-Hour long hackathon provides an opportunity
+                      for the students to collaborate and conceptualize a
+                      real-world problem.
+                    </p>
                     <!-- Button -->
                     <a class="btn btn-unique">Visit Website</a>
                   </div>
@@ -280,130 +287,130 @@
                   </div>
                 </div>
               </div>
-            
-            <div class="col-lg-6">
-              <div class="card card-cascade narrower">
-                <!-- Card image -->
-                <div class="view view-cascade overlay">
-                  <img
-                    class="card-img-top"
-                    src="./img/chimer.jpg"
-                    alt="Card image cap"
-                    height="354px"
-                  />
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
 
-                <!-- Card content -->
-                <div class="card-body card-body-cascade">
-                  <!-- Title -->
-                  <h4 class="font-weight-bold card-title">
-                  CHIMERA-X
-                  </h4>
-                     <!-- Label -->
-                     <h5 class="pink-text pb-2 pt-1">
-                      Quizzing Contest
-                     </h5>
-                  <!-- Text -->
-                  <p class="card-text">
-                    CHIMERA-X has put ISTE Students’ Chapter MANIT on the map. It is Central India’s largest quizzing event. A month long brainstorming yet rewarding journey, spanning 16 cities and including 5000+ participants culminated to 13 finalists battling it out in the final here in MANIT.
-        
+              <div class="col-lg-6">
+                <div class="card card-cascade narrower">
+                  <!-- Card image -->
+                  <div class="view view-cascade overlay">
+                    <img
+                      class="card-img-top"
+                      src="./img/chimerax.jpg"
+                      alt="Card image cap"
+                      height="354px"
+                    />
+                    <a>
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body card-body-cascade">
+                    <!-- Title -->
+                    <h4 class="font-weight-bold card-title">CHIMERA-X</h4>
+                    <!-- Label -->
+                    <h5 class="pink-text pb-2 pt-1">Quizzing Contest</h5>
+                    <!-- Text -->
+                    <p class="card-text">
+                      CHIMERA-X has put ISTE Students’ Chapter MANIT on the map.
+                      It is Central India’s largest quizzing event. A month long
+                      brainstorming yet rewarding journey, spanning 16 cities
+                      and including 5000+ participants culminated to 13
+                      finalists battling it out in the final here in MANIT.
                     </p>
-                  <!-- Button -->
-                  <a class="btn btn-unique">Visit Website</a>
-                </div>
+                    <!-- Button -->
+                    <a class="btn btn-unique">Visit Website</a>
+                  </div>
 
-                <!-- Card footer -->
-                <div class="card-footer text-muted text-center">
-                  <i class="fas fa-calendar-alt"></i> October-2020
-                </div>
-              </div>
-            </div>>
-          </div>
-          <div class="row mb-4">
-            <div class="col-lg-6">
-              <div class="card card-cascade narrower">
-                <!-- Card image -->
-                <div class="view view-cascade overlay">
-                  <img
-                    class="card-img-top"
-                    src="./img/megatreopuz-1.jpg"
-                    alt="Card image cap"
-                    height="354px"
-                  />
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
-
-                <!-- Card content -->
-                <div class="card-body card-body-cascade">
-                  <!-- Title -->
-                  <h4 class="font-weight-bold card-title">
-                    Megatreopuz
-                  </h4>
-                     <!-- Label -->
-                     <h5 class="pink-text pb-2 pt-1">
-                      Online Cryptic Hunt!!!
-                     </h5>
-                  <!-- Text -->
-                  <p class="card-text">
-                    Megatreopuz is an online cryptic hunt that has witnessed participation not only from India but from other countries as well. It contains a set of tricky questions unlocked over a span of 7 days. Top three people with the keys to most questions are awarded cash prizes.
-                    </p>
-                  <!-- Button -->
-                  <a class="btn btn-unique">Visit Website</a>
-                </div>
-
-                <!-- Card footer -->
-                <div class="card-footer text-muted text-center">
-                  <i class="fas fa-calendar-alt"></i> Februray-2020
+                  <!-- Card footer -->
+                  <div class="card-footer text-muted text-center">
+                    <i class="fas fa-calendar-alt"></i> October-2020
+                  </div>
                 </div>
               </div>
             </div>
-          
-          <div class="col-lg-6">
-            <div class="card card-cascade narrower">
-              <!-- Card image -->
-              <div class="view view-cascade overlay">
-                <img
-                  class="card-img-top"
-                  src="./img/codathon-1.jpg"
-                  alt="Card image cap"
-                  height="354px"
-                />
-                <a>
-                  <div class="mask rgba-white-slight"></div>
-                </a>
+            <div class="row mb-4">
+              <div class="col-lg-6">
+                <div class="card card-cascade narrower">
+                  <!-- Card image -->
+                  <div class="view view-cascade overlay">
+                    <img
+                      class="card-img-top"
+                      src="./img/megatreopuz-1.jpg"
+                      alt="Card image cap"
+                      height="354px"
+                    />
+                    <a>
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body card-body-cascade">
+                    <!-- Title -->
+                    <h4 class="font-weight-bold card-title">Megatreopuz</h4>
+                    <!-- Label -->
+                    <h5 class="pink-text pb-2 pt-1">Online Cryptic Hunt!!!</h5>
+                    <!-- Text -->
+                    <p class="card-text">
+                      Megatreopuz is an online cryptic hunt that has witnessed
+                      participation not only from India but from other countries
+                      as well. It contains a set of tricky questions unlocked
+                      over a span of 7 days. Top three people with the keys to
+                      most questions are awarded cash prizes.
+                    </p>
+                    <!-- Button -->
+                    <a class="btn btn-unique">Visit Website</a>
+                  </div>
+
+                  <!-- Card footer -->
+                  <div class="card-footer text-muted text-center">
+                    <i class="fas fa-calendar-alt"></i> Februray-2020
+                  </div>
+                </div>
               </div>
 
-              <!-- Card content -->
-              <div class="card-body card-body-cascade">
-                <!-- Title -->
-                <h4 class="font-weight-bold card-title">
-                CODATHON
-                </h4>
-                   <!-- Label -->
-                   <h5 class="pink-text pb-2 pt-1">
-                    Coding Contest
-                   </h5>
-                <!-- Text -->
-                <p class="card-text">
-                  Codathon is a first ever Inter NIT Coding Contest hosted by any NIT. The last edition the week long coding contest started on 12 January 2019 and concluded on 22 January, 2019. Keeping up with our vision of a dedicated competition among all NITs, Codathon garnered registration of 5000+ students.
-                  </p>
-                <!-- Button -->
-                <a class="btn btn-unique">Visit Website</a>
-              </div>
+              <div class="col-lg-6">
+                <div class="card card-cascade narrower">
+                  <!-- Card image -->
+                  <div class="view view-cascade overlay">
+                    <img
+                      class="card-img-top"
+                      src="./img/codathon-1.jpg"
+                      alt="Card image cap"
+                      height="354px"
+                    />
+                    <a>
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
 
-              <!-- Card footer -->
-              <div class="card-footer text-muted text-center">
-                <i class="fas fa-calendar-alt"></i> January-2020
+                  <!-- Card content -->
+                  <div class="card-body card-body-cascade">
+                    <!-- Title -->
+                    <h4 class="font-weight-bold card-title">CODATHON</h4>
+                    <!-- Label -->
+                    <h5 class="pink-text pb-2 pt-1">Coding Contest</h5>
+                    <!-- Text -->
+                    <p class="card-text">
+                      Codathon is a first ever Inter NIT Coding Contest hosted
+                      by any NIT. The last edition the week long coding contest
+                      started on 12 January 2019 and concluded on 22 January,
+                      2019. Keeping up with our vision of a dedicated
+                      competition among all NITs, Codathon garnered registration
+                      of 5000+ students.
+                    </p>
+                    <!-- Button -->
+                    <a class="btn btn-unique">Visit Website</a>
+                  </div>
+
+                  <!-- Card footer -->
+                  <div class="card-footer text-muted text-center">
+                    <i class="fas fa-calendar-alt"></i> January-2020
+                  </div>
+                </div>
               </div>
             </div>
-          </div>>
-        </div>
-               <div class="row mb-4">
+            <div class="row mb-4">
               <div class="col-lg-6">
                 <div class="card card-cascade narrower">
                   <!-- Card image -->
@@ -422,17 +429,19 @@
                   <!-- Card content -->
                   <div class="card-body card-body-cascade">
                     <!-- Title -->
-                    <h4 class="font-weight-bold card-title">
-                    ANUBHUTI
-                    </h4>
-                       <!-- Label -->
-                       <h5 class="pink-text pb-2 pt-1">
-                        Unfloding Hidden Stories!
-                       </h5>
+                    <h4 class="font-weight-bold card-title">ANUBHUTI</h4>
+                    <!-- Label -->
+                    <h5 class="pink-text pb-2 pt-1">
+                      Unfloding Hidden Stories!
+                    </h5>
                     <!-- Text -->
                     <p class="card-text">
-                      To ignite the spark inside the students ISTE SC MANIT organizes a guest lecture series comprising of lectures from eminent and inspiring personalities. The lectures are not only technical, but cover a plethora of fields which are otherwise unexplored by students.
-                       </p>
+                      To ignite the spark inside the students ISTE SC MANIT
+                      organizes a guest lecture series comprising of lectures
+                      from eminent and inspiring personalities. The lectures are
+                      not only technical, but cover a plethora of fields which
+                      are otherwise unexplored by students.
+                    </p>
                     <!-- Button -->
                     <a class="btn btn-unique">Visit Website</a>
                   </div>
@@ -443,47 +452,49 @@
                   </div>
                 </div>
               </div>
-            
-            <div class="col-lg-6">
-              <div class="card card-cascade narrower">
-                <!-- Card image -->
-                <div class="view view-cascade overlay">
-                  <img
-                    class="card-img-top"
-                    src="./img/version.jpg"
-                    alt="Card image cap"
-                  />
-                  <a>
-                    <div class="mask rgba-white-slight"></div>
-                  </a>
-                </div>
 
-                <!-- Card content -->
-                <div class="card-body card-body-cascade">
-                  <!-- Title -->
-                  <h4 class="font-weight-bold card-title">
-                  A Social Initiative
-                  </h4>
-                     <!-- Label -->
-                     <h5 class="pink-text pb-2 pt-1">
-                      IDE for your code !
-                     </h5>
-                  <!-- Text -->
-                  <p class="card-text">
-                    As a part of social initiaitive, we at ISTE SC MANIT strive to work for the the betterment of the society. Last year we took up the initiaitive to conduct joyride for the less fortunate children. Joyride was organized in collaboration wit NGO HOPE working towards welfare of under-privileged children, and was sponsored by NISSAN.
+              <div class="col-lg-6">
+                <div class="card card-cascade narrower">
+                  <!-- Card image -->
+                  <div class="view view-cascade overlay">
+                    <img
+                      class="card-img-top"
+                      src="./img/version.jpg"
+                      alt="Card image cap"
+                    />
+                    <a>
+                      <div class="mask rgba-white-slight"></div>
+                    </a>
+                  </div>
+
+                  <!-- Card content -->
+                  <div class="card-body card-body-cascade">
+                    <!-- Title -->
+                    <h4 class="font-weight-bold card-title">
+                      A Social Initiative
+                    </h4>
+                    <!-- Label -->
+                    <h5 class="pink-text pb-2 pt-1">IDE for your code !</h5>
+                    <!-- Text -->
+                    <p class="card-text">
+                      As a part of social initiaitive, we at ISTE SC MANIT
+                      strive to work for the the betterment of the society. Last
+                      year we took up the initiaitive to conduct joyride for the
+                      less fortunate children. Joyride was organized in
+                      collaboration wit NGO HOPE working towards welfare of
+                      under-privileged children, and was sponsored by NISSAN.
                     </p>
-                  <!-- Button -->
-                  <a class="btn btn-unique">Visit Website</a>
-                </div>
+                    <!-- Button -->
+                    <a class="btn btn-unique">Visit Website</a>
+                  </div>
 
-                <!-- Card footer -->
-                <div class="card-footer text-muted text-center">
-                  <i class="fas fa-calendar-alt"></i> Februrary-2020
+                  <!-- Card footer -->
+                  <div class="card-footer text-muted text-center">
+                    <i class="fas fa-calendar-alt"></i> Februrary-2020
+                  </div>
                 </div>
               </div>
-            </div>>
-          </div>
-          </div>
+            </div>
           </div>
         </section>
       </div>
@@ -592,18 +603,23 @@
       <!-- Contact Section end -->
     </footer>
 
-
-
     <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- Popper.js first, then Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.min.js"
+      integrity="sha384-5h4UG+6GOuV9qXh6HqOLwZMY4mnLPraeTrjT5v07o347pj6IkfuoASuGBhfDsp3d"
+      crossorigin="anonymous"
+    ></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
 
     <!-- Carousel options -->
 
-  <script src="./js/scrolling.js"> </script>
-</body>
+    <script src="./js/scrolling.js"></script>
+  </body>
 </html>

@@ -1,0 +1,23 @@
+/* Teams.html */
+
+/* Navbar */
+header {
+  height: 12vh;
+}
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #24355c;
+}
+.teams-social #facebook:hover {
+  color: #3b5999;
+}
+.teams-social #instagram:hover {
+  color: #e4405f;
+}
+.teams-social #twitter:hover {
+  color: #55acee;
+}
+.teams-social #linkedin:hover {
+  color: #0077b5;
+}
