@@ -38,12 +38,6 @@ header,
   height: auto;
 }
 
-.hd {
-  font-size: 150%;
-}
-.hhd {
-  background-color: dodgerblue;
-}
 
 h4 {
   text-align: center;
@@ -53,7 +47,7 @@ h5 {
 }
 .card-text {
   text-align: justify;
-  height: 20vh;
+  min-height: 20vh;
 }
 
 #contact {
