@@ -71,7 +71,7 @@ h5 {
 .social-icon a {
   margin: 0 10px;
 }
-.social-icon .fa {
+.social-icon .fab {
   font-size: 30px;
   line-height: 60px;
   color: white;
@@ -92,6 +92,3 @@ h5 {
 .link:hover {
   color: #ff003f;
 }
-/* .view-cascade {
-  max-height: 275px;
-} */
