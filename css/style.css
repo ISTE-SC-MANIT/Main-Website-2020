@@ -38,7 +38,6 @@ header,
   height: auto;
 }
 
-
 h4 {
   text-align: center;
 }
@@ -85,4 +84,8 @@ h5 {
 }
 .link:hover {
   color: #ff003f;
+}
+
+.workshop {
+  height: 300px;
 }
