@@ -10,10 +10,10 @@
     <title>ISTE SC MANIT</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/logo.png" type="image/x-icon" />
-    <!-- Google Fonts Roboto -->
+    <!-- Google Fonts Montserrat -->
     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
     />
     <!-- Font Awesome -->
     <link
@@ -27,6 +27,7 @@
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/arrow-animation.css" />
   </head>
   <body>
     <!--Main Navigation-->
@@ -107,6 +108,12 @@
                     Read more<i class="fas fa-book ml-2"></i></button
                 ></a>
               </div>
+              <a href="#about-section"
+                ><div class="arrow">
+                  <span></span>
+                  <span></span>
+                  <span></span></div
+              ></a>
             </div>
           </div>
         </div>
@@ -116,12 +123,12 @@
     <!--Main Navigation-->
 
     <!--Main layout-->
-    <main class="mt-5">
+    <main>
       <div class="container">
-        <hr class="my-5" />
+        <hr class="my-5" id="about-section" />
 
         <!--Section: Gallery-->
-        <section id="about-section">
+        <section class="pt-4">
           <!-- Heading -->
           <h1 class="mb-5 font-weight-bold text-center">ABOUT US</h1>
 
@@ -234,9 +241,9 @@
           </div>
           <!--Grid row-->
         </section>
-        <hr class="my-5" />
+        <hr class="my-5" id="event-section" />
 
-        <section id="event-section">
+        <section class="pt-4">
           <h1 class="mb-5 font-weight-bold text-center">OUR EVENTS</h1>
           <div>
             <div class="row">
