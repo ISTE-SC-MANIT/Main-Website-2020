@@ -1,0 +1,111 @@
+.preloader {
+  background: black;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  transition: opacity 1s ease;
+}
+.title {
+  display: flex;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.part {
+  padding: 0 0.5rem;
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.line {
+  position: absolute;
+  top: 47.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 43%;
+  animation: lineAnimation 1s ease;
+}
+.line hr {
+  background: rgb(255, 255, 255);
+}
+.part1 {
+  animation: part1Animation 1s ease;
+}
+.part3 {
+  animation: part3Animation 1s ease;
+}
+.part2 {
+  animation: part2Animation 1s ease;
+}
+
+@keyframes part1Animation {
+  0% {
+    transform: translate(-30vw, -50vh);
+  }
+  50% {
+    transform: translate(-30vw, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes part3Animation {
+  0% {
+    transform: translate(30vw, -50vh);
+  }
+  50% {
+    transform: translate(30vw, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes part2Animation {
+  0% {
+    transform: translate(0, 50vh);
+  }
+  50% {
+    transform: translate(0, -30vh);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes lineAnimation {
+  from {
+    width: 250%;
+  }
+  to {
+    width: 43%;
+  }
+}
+.preloader-finished {
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (max-width: 576px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .line {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 43%;
+    animation: lineAnimation 1s ease;
+  }
+}
