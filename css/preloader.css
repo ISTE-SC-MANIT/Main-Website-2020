@@ -28,7 +28,7 @@
   top: 47.5%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 43%;
+  width: 55%;
   animation: lineAnimation 1s ease;
 }
 .line hr {
@@ -85,7 +85,7 @@
     width: 250%;
   }
   to {
-    width: 43%;
+    width: 55%;
   }
 }
 .preloader-finished {
@@ -105,7 +105,7 @@
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 43%;
+    width: 55%;
     animation: lineAnimation 1s ease;
   }
 }

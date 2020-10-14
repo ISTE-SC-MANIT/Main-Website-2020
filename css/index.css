@@ -9,3 +9,53 @@
 .hhd {
   background-color: #24355c;
 }
+.nav-link {
+  position: relative;
+}
+.nav-link:hover {
+  color: blue;
+}
+.nav-link:hover::after {
+  content: "";
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 80%;
+}
+.nav-link.active::after {
+  content: "";
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 2px;
+  width: 80%;
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    position: relative;
+  }
+  .nav-link:hover::after {
+    content: "";
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+    height: 2px;
+    width: 16%;
+  }
+  .nav-link.active::after {
+    content: "";
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+    height: 2px;
+    width: 16%;
+  }
+}

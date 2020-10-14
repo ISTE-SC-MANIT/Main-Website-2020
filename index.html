@@ -44,7 +44,7 @@
     </div>
     <!-- Preloader end -->
     <!--Main Navigation-->
-    <header>
+    <header class="section" id="home">
       <!--Navbar-->
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="bar">
         <div class="container-fluid">
@@ -72,23 +72,38 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a
-                  class="nav-link pr-3 pl-3 active"
+                  class="nav-link mr-3 ml-3"
+                  id="home-link"
                   aria-current="page"
-                  href="./index.html"
-                  >Home</a
+                  href="#home"
+                  >HOME</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link pr-3 pl-3" href="#about-section">About</a>
+                <a
+                  class="nav-link mr-3 ml-3"
+                  id="about-link"
+                  href="#about-start"
+                  >ABOUT</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link pr-3 pl-3" href="#event-section">Events</a>
+                <a
+                  class="nav-link mr-3 ml-3"
+                  id="event-link"
+                  href="#event-start"
+                  >EVENTS</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link pr-3 pl-3" href="./team.html">Teams</a>
+                <a class="nav-link mr-3 ml-3" id="team-link" href="./team.html"
+                  >TEAM</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link pr-3 pl-3" href="#contact">Contact</a>
+                <a class="nav-link mr-3 ml-3" id="contact-link" href="#contact"
+                  >CONTACT</a
+                >
               </li>
             </ul>
           </div>
@@ -114,7 +129,8 @@
 
                 <!-- Description -->
                 <h4 class="white-text my-4">
-                  Best Students' Chapter in MP-CG Region from Past 3 Years.
+                  Best Students' Chapter in Madhya Pradesh Region from 3
+                  consecutive years.
                 </h4>
                 <a href="#about-section"
                   ><button type="button" class="btn btn-outline-white">
@@ -138,10 +154,10 @@
     <!--Main layout-->
     <main>
       <div class="container">
-        <hr class="my-5" id="about-section" />
+        <hr class="my-5" id="about-start" />
 
-        <!--Section: Gallery-->
-        <section class="pt-4">
+        <!-- Section: About -->
+        <section class="pt-4 section about-section" id="about-section">
           <!-- Heading -->
           <h1 class="mb-5 font-weight-bold text-center">ABOUT US</h1>
 
@@ -254,9 +270,10 @@
           </div>
           <!--Grid row-->
         </section>
-        <hr class="my-5" id="event-section" />
-
-        <section class="pt-4">
+        <!-- /Section: About -->
+        <hr class="my-5" id="event-start" />
+        <!-- /Section: Event -->
+        <section class="pt-4 section event-section" id="event-section">
           <h1 class="mb-5 font-weight-bold text-center">OUR EVENTS</h1>
           <div>
             <div class="row">
@@ -657,12 +674,12 @@
           </div>
         </section>
       </div>
-      <!--Section: Gallery-->
+      <!-- /Section: Event -->
     </main>
     <!--Main layout-->
     <hr class="my-5" />
     <!--Footer-->
-    <footer id="contact">
+    <footer class="section" id="contact">
       <!-- Contact Section start -->
       <section class="contact-section">
         <div class="container text-center text-md-left">
@@ -777,7 +794,28 @@
     ></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
-
+    <!-- ScrollMagic and GSAP -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha512-HzAEuXwhLxwm/Jj+5ecdjzrRVrjuh2ZeIxyT1Ln37TO5pWNMnKBuU7cfd1wvRQ/k86w1oC174Yk1T7aRlBpIcA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha512-Ey+nIg+Ue8gUAaCNjR1KHR8nwDjWn9QXoQbynR/X+V66s6u1oqynnuRQ8zSgg5f5gBNb2Bzsu1pItCi3sPkbfA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha512-A98SmLRZISk4eIxQBeCm8k0jAcwN3A3lBx4hr7baoMpV1VpxcxlZIhi5fJIZN50sQ5RlCzx8yV+Voy2cR6x0aA=="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- /ScrollMagic and GSAP -->
     <!-- Carousel options -->
 
     <script src="./js/scrolling.js"></script>
