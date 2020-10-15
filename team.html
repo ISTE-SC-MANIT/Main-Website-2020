@@ -33,7 +33,7 @@
 
     <!--/.Mask-->
     <!--Main Navigation-->
-    <header>
+    <header id="top">
       <!--Navbar-->
       <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
         <div class="container-fluid">
@@ -2094,6 +2094,7 @@
         </section>
       </div>
     </main>
+    <a href="#top" class="goto-top"><i class="fas fa-chevron-up"></i></a>
 
     <!--/.Footer Links-->
 
@@ -2126,6 +2127,25 @@
       $(".carousel").carousel({
         interval: 200,
       });
+    </script>
+    <script>
+      var gotoBtn = document.querySelector(".goto-top");
+
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 400 ||
+          document.documentElement.scrollTop > 400
+        ) {
+          gotoBtn.classList.add("show");
+        } else {
+          if (gotoBtn.classList.contains("show"))
+            gotoBtn.classList.remove("show");
+        }
+      }
     </script>
   </body>
 </html>

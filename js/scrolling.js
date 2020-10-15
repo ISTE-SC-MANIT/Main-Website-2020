@@ -16,7 +16,6 @@ function scrollFunction() {
 
 let controller;
 let fadeInScene;
-let activeNavScene;
 
 function fadeIn() {
   // Init Controller
@@ -42,6 +41,8 @@ function fadeIn() {
 }
 
 // Active Nav-link Animation
+
+let activeNavScene;
 
 const scenes = {
   'home': 'home-link',
@@ -80,5 +81,31 @@ function activeNav() {
   })
 }
 
+// goto top Animation
+
+let gotoTopScene;
+
+function gotoTop() {
+  // Init Controller
+  controller = new ScrollMagic.Controller();
+  // Select goto-top btn
+  const gotoTopBtn = document.querySelector('.goto-top');
+  const fadeTl = gsap.timeline({
+    defaults: { duration: 0.1, ease: "power2.inOut" }
+  });
+  fadeTl.fromTo(gotoTopBtn, { opacity: 0 }, { opacity: 1 });
+  // Create Scene
+  gotoTopScene = new ScrollMagic.Scene({
+    triggerElement: ".goto-trigger",
+    triggerHook: 0.7,
+    reverse: true
+  })
+    .setTween(fadeTl)
+    .setClassToggle(".goto-top", "show")
+    // .addIndicators({ colorStart: 'red', colorTrigger: 'yellow', name: 'section' })
+    .addTo(controller);
+}
+
 fadeIn();
 activeNav();
+gotoTop();
