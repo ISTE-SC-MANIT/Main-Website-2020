@@ -51,6 +51,8 @@ h5 {
 .link {
   color: white;
   text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
 }
 .social-icon a {
   margin: 0 10px;
@@ -63,15 +65,23 @@ h5 {
 
 .social-icon #facebook:hover {
   color: #3b5999;
+  transform: scale(1.2);
+  transition: all 0.1s ease-in;
 }
 .social-icon #instagram:hover {
   color: #e4405f;
+  transform: scale(1.2);
+  transition: all 0.1s ease-in;
 }
 .social-icon #twitter:hover {
   color: #55acee;
+  transform: scale(1.2);
+  transition: all 0.1s ease-in;
 }
 .social-icon #linkedin:hover {
   color: #0077b5;
+  transform: scale(1.2);
+  transition: all 0.1s ease-in;
 }
 .link:hover {
   color: #ff003f;
@@ -89,5 +99,64 @@ h5 {
   .card-cascade {
     width: 90%;
     margin: auto;
+  }
+}
+
+/* Navbar Active link on scrolling */
+
+.nav-link {
+  position: relative;
+}
+.nav-link:hover {
+  color: white !important;
+}
+
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 80%;
+  height: 2px;
+  background-color: #ffffff;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  transform: translate(-50%, 0);
+  background-color: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover::after {
+  width: 80%;
+}
+
+@media (max-width: 992px) {
+  .nav-link {
+    position: relative;
+  }
+  .nav-link:hover::after {
+    content: "";
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    height: 2px;
+    width: 18%;
+  }
+  .nav-link.active::after {
+    content: "";
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    height: 2px;
+    width: 18%;
   }
 }

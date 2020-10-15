@@ -63,7 +63,7 @@ function activeNav() {
       var durtn = section.clientHeight - 50;
     } else if (section.id === "event-section") {
       var hook = 0.25;
-      var durtn = section.clientHeight - 50;
+      var durtn = section.clientHeight - 150;
     } else {
       var hook = 0.25;
       var durtn = section.clientHeight + 100;
