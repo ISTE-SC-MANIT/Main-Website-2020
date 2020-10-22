@@ -21,7 +21,7 @@ function fadeIn() {
   // Init Controller
   controller = new ScrollMagic.Controller();
   // Select all sections
-  const sections = document.querySelectorAll('.section');
+  const sections = document.querySelectorAll('.animate-section');
   const sectionHeading = document.querySelectorAll('.section-heading');
   // Loop over each section
   sections.forEach(section => {
