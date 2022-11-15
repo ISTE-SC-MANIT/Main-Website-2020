@@ -9,7 +9,7 @@
 	/* overflow: hidden; */
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-	height: 380px;
+	height: 300px;
 }
 .heading {
 	font-weight: 700;
@@ -40,10 +40,10 @@ body {
 .container {
 	display: grid;
 
-	width: 80%;
-	grid-template-columns: auto auto auto;
+	width: 90%;
+	grid-template-columns: 30% 30% 30%;
 	/* margin-left: 2rem; */
-	gap: 23px;
+	gap: 50px;
 	/* max-height: 100vh; */
 	/* margin: 10px; */
 	position: initial;
@@ -55,7 +55,9 @@ body {
 .centralise {
 	width: 100%;
 	display: flex;
-	min-height: 380px;
+	/* min-height: 380px;
+	 */
+	height: 450px;
 	position: relative;
 	flex-direction: column;
 	justify-content: center;
