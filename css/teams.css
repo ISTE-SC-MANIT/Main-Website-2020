@@ -2,38 +2,39 @@
 
 /* Navbar */
 header {
-  height: 12vh;
+	height: 12vh;
 }
 .navbar {
-  padding-top: 0;
-  padding-bottom: 0;
-  background-color: #24355c;
+	padding-top: 0;
+	padding-bottom: 0;
+	background-color: #24355c;
 }
 .teams-social a {
-  color: black;
+	color: black;
 }
 .teams-social #facebook:hover {
-  color: #3b5999;
-  transform: scale(1.2);
-  transition: all 0.1s ease-in;
+	color: #3b5999;
+	transform: scale(1.2);
+	transition: all 0.1s ease-in;
 }
 .teams-social #instagram:hover {
-  color: #e4405f;
-  transform: scale(1.2);
-  transition: all 0.1s ease-in;
+	color: #e4405f;
+	transform: scale(1.2);
+	transition: all 0.1s ease-in;
 }
 .teams-social #twitter:hover {
-  color: #55acee;
-  transform: scale(1.2);
-  transition: all 0.1s ease-in;
+	color: #55acee;
+	transform: scale(1.2);
+	transition: all 0.1s ease-in;
 }
 .teams-social #linkedin:hover {
-  color: #0077b5;
-  transform: scale(1.2);
-  transition: all 0.1s ease-in;
+	color: #0077b5;
+	transform: scale(1.2);
+	transition: all 0.1s ease-in;
 }
 .view img {
-  height: 230px;
-  width: 100%;
-  object-fit: cover;
+	/* height: 230px; */
+	/* width: 100%; */
+	/* object-fit: cover;
+   */
 }
