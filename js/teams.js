@@ -126,6 +126,7 @@ const data = [
 		vertical: 'Executive ',
 		linkedinProfile: 'https://www.linkedin.com/in/ashay-jain-485a43244',
 		instagramProfile: 'easyyy_10',
+		photo: '../team_img/ashay.jpg',
 	},
 	{
 		timestamp: '2022-11-13T14:24:02.901Z',
