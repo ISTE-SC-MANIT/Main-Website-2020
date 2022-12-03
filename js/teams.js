@@ -88,6 +88,14 @@ const data = [
 		photo: 'https://drive.google.com/open?id=1KmxtTt7MU53s76Vr-p6U8T1Fsf6bOskY',
 	},
 	{
+		name: 'Gautam Pratap',
+		year: '2nd',
+		vertical: 'Graphic Designer',
+		linkedinProfile: 'https://www.linkedin.com/in/gautampratap',
+		instagramProfile: 'https://www.instagram.com/yoursgautampratap/',
+		photo: '../team_img/Gautam.jpg',
+	},
+	{
 		timestamp: '2022-11-13T18:19:21.830Z',
 		name: 'Arin Bansal',
 		year: '2nd',
